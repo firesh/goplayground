@@ -22,5 +22,5 @@ func main() {
 	}()
 
 	// try sleep 0 / 2 / 6 second to check life circle
-	time.Sleep(6 * time.Second)
+	time.Sleep(2 * time.Second)
 }
