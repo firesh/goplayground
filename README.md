@@ -2,8 +2,8 @@
 
 ## Go Life Circle
 
-* Check go func() life circle when main() is quit. See [go_life/main.go](go_life/main.go)
-* Check go func() life circle when main() is alive and parent func() is quit. See [go_life_in_func/main.go](go_life_in_func/main.go)
+* Check go func() life circle when main() quit. See [go_life/main.go](go_life/main.go)
+* Check go func() life circle when main() is running and parent func() quit. See [go_life_in_func/main.go](go_life_in_func/main.go)
 
 ### Result
 ```
