@@ -15,12 +15,12 @@ func main() {
 		for count := 0; ; count++ {
 			fmt.Printf("count: %v\n", count)
 			time.Sleep(500 * time.Millisecond)
-			if count > 10 {
+			if count >= 10 {
 				break
 			}
 		}
 	}()
 
-	// try sleep 0 / 2 / 5 second to check life circle
-	time.Sleep(2 * time.Second)
+	// try sleep 0 / 2 / 6 second to check life circle
+	time.Sleep(6 * time.Second)
 }
